@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from './components/navbar';
+import HomePage from './pages/homepage';
 
 function App() {
   return (
     <div className="App">
-      starting the education website
+      <Navbar />
+      <div className='mt-28'>
+        <HomePage/>
+      </div>
     </div>
   );
 }
