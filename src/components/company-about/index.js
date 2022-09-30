@@ -2,7 +2,7 @@ import React from 'react'
 
 const CompanyAbout = () => {
     return (
-        <div className='h-70 px-26 py-12 bg-aboutSectionBackground flex items-center'>
+        <div className='h-70 px-26 py-12 bg-lightBlueSectionBackground flex items-center'>
             <div className='w-1/4'>
                 <svg width="156" height="32" viewBox="0 0 156 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_1396_490)">
