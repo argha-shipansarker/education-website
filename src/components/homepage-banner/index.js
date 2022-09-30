@@ -96,13 +96,13 @@ const HomePageBanner = () => {
 
       <div className='banner-image w-full h-174 relative'>
         {
-          selectedBanner.name === "Food Relief" && <img src={FoodReliefLogo} className="h-full" alt='banner-logo' />
+          selectedBanner.name === "Food Relief" && <img src={FoodReliefLogo} className="h-full w-full object-cover" alt='banner-logo' />
         }
         {
-          selectedBanner.name === "Safety Relief" && <img src={SafetyReliefLogo} className="h-full" alt='banner-logo' />
+          selectedBanner.name === "Safety Relief" && <img src={SafetyReliefLogo} className="h-full w-full object-cover" alt='banner-logo' />
         }
         {
-          selectedBanner.name === "Mental Health Relief" && <img src={MentalHealthReliefLogo} className="h-full" alt='banner-logo' />
+          selectedBanner.name === "Mental Health Relief" && <img src={MentalHealthReliefLogo} className="h-full w-full object-cover" alt='banner-logo' />
         }
         <div className='w-152 absolute top-49 left-26 z-10'>
           <p className='text-6.5xl font-bold text-white'>{selectedBanner.bannerHeading}</p>
