@@ -10,20 +10,26 @@ module.exports = {
         "primaryColor": "#D6BB4E",
         "secondaryColor": "#F6F2DF",
         "navbarBackground": "rgba(0, 0, 0, 0.2)",
-        "aboutSectionBackground": "#F4F9F8",
+        "lightBlueSectionBackground": "#F4F9F8",
         "mutedTextColor": "#707070"
       },
 
       spacing: {
+        15: "3.75rem",
         18: "4.5rem",
         26: "6.5rem",
+        27: "6.75rem",
+        30: "7.5rem",
         35: "8.75rem",
         46: "11.5rem",
         49: "12.25rem",
         70: "17.5rem",
         74.5: "18.625rem",
+        75.25: "18.8125rem",
         94.5: "23.625rem",
+        100: "25rem",
         152: "38rem",
+        158.25: "39.5625rem",
         164: "41rem",
         174: "43.5rem",
         220: "55rem"
