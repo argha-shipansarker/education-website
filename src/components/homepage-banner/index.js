@@ -124,7 +124,7 @@ const HomePageBanner = () => {
             }
           </div>
         </div>
-        <img src={Overlay} className="absolute h-full w-full opacity-100 top-0" />
+        <img src={Overlay} alt="overlay" className="absolute h-full w-full opacity-100 top-0" />
       </div>
 
       <div className='flex'>

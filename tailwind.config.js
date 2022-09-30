@@ -15,12 +15,16 @@ module.exports = {
       },
 
       spacing: {
+        18: "4.5rem",
         26: "6.5rem",
         35: "8.75rem",
         46: "11.5rem",
         49: "12.25rem",
         70: "17.5rem",
+        74.5: "18.625rem",
+        94.5: "23.625rem",
         152: "38rem",
+        164: "41rem",
         174: "43.5rem",
         220: "55rem"
       },
@@ -36,6 +40,10 @@ module.exports = {
       fontSize: {
         "3.5xl": "2rem",
         "6.5xl": "4rem",
+      },
+
+      lineHeight: {
+        16: "4rem"
       }
     },
   },

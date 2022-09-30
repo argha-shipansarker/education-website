@@ -5,3 +5,26 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+
+.slick-prev:before {
+    content: ""!important;
+}
+
+.slick-next:before {
+    content: ""!important;
+}
+
+.slick-prev
+{
+    top: 350px!important;
+    left: 368px!important;
+    z-index: 10;
+}
+
+.slick-next
+{
+    top: 350px!important;
+    left: 420px!important;
+    z-index: 10;
+}
