@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className='mt-28'>
-        <HomePage/>
-      </div>
+      {/* <div className='mt-28'> */}
+      <HomePage />
+      {/* </div> */}
     </div>
   );
 }
