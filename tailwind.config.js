@@ -9,7 +9,9 @@ module.exports = {
       colors: {
         "primaryColor": "#D6BB4E",
         "secondaryColor": "#F6F2DF",
-        "navbarBackground": "rgba(0, 0, 0, 0.2)"
+        "navbarBackground": "rgba(0, 0, 0, 0.2)",
+        "aboutSectionBackground": "#F4F9F8",
+        "mutedTextColor": "#707070"
       },
 
       spacing: {
@@ -17,6 +19,7 @@ module.exports = {
         35: "8.75rem",
         46: "11.5rem",
         49: "12.25rem",
+        70: "17.5rem",
         152: "38rem",
         174: "43.5rem",
         220: "55rem"
@@ -31,7 +34,8 @@ module.exports = {
       },
 
       fontSize: {
-        "6.5xl": "4rem"
+        "3.5xl": "2rem",
+        "6.5xl": "4rem",
       }
     },
   },
