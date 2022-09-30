@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/education-website/static/css/main.3069addb.css",
+    "main.js": "/education-website/static/js/main.ba27de2b.js",
+    "static/js/787.feed191a.chunk.js": "/education-website/static/js/787.feed191a.chunk.js",
+    "static/media/food-relief.png": "/education-website/static/media/food-relief.480c3757fda5f5eec695.png",
+    "static/media/mental-health-relief.png": "/education-website/static/media/mental-health-relief.47fd6cb0ab04b891b11d.png",
+    "static/media/safety-relief.png": "/education-website/static/media/safety-relief.b7ce64e46ea20fee3838.png",
+    "index.html": "/education-website/index.html",
+    "main.3069addb.css.map": "/education-website/static/css/main.3069addb.css.map",
+    "main.ba27de2b.js.map": "/education-website/static/js/main.ba27de2b.js.map",
+    "787.feed191a.chunk.js.map": "/education-website/static/js/787.feed191a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3069addb.css",
+    "static/js/main.ba27de2b.js"
+  ]
+}
