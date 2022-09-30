@@ -69,7 +69,7 @@ const HomePageBanner = () => {
   const [selectedBanner, setSelectedBanner] = useState({
     name: "Food Relief",
     bannerHeading: 'Fight against student Hunger',
-    bannerDescription: "Congress cut $11B child nutrition waiver program, ending subsidized lunches for millions of students. Help feed millions of hungry children that rely on meal programs for daily nutrition."
+    bannerDescription: "Congress cut $11B child nutrition waiver program, ending subsidized lunches for millions of students. Help feed millions hungry children that rely on meal programs for daily nutrition."
   })
 
   const handleBannerSelection = clickedBanner => {
