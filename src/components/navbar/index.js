@@ -22,7 +22,7 @@ const Navbar = () => {
         },
     ]
     return (
-        <div className='w-full h-24 px-26 py-4 bg-navbarBackground backdrop-blur-xs flex justify-between items-center fixed top-0 right-0'>
+        <div className='w-full h-24 px-26 py-4 bg-navbarBackground backdrop-blur-xs flex justify-between items-center fixed top-0 right-0 z-50'>
 
             <div className='company-logo'>
                 <svg width="100" height="64" viewBox="0 0 100 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,8 +83,11 @@ const Navbar = () => {
             <div className='navbar-menus flex'>
                 {
                     navbarMenus.map((menu, index) => (
-                        <div className='mr-12'>
+                        <div className={`${navbarMenus.length - 1 === index ? "" : "mr-12"}`} key={index}>
                             <p className='font-semibold text-white'>{menu.name}</p>
+                            {
+                                menu.name === "Home" && <div className='h-1 bg-primaryColor mt-1'></div>
+                            }
                         </div>
                     ))
                 }
