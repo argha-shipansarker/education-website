@@ -5,6 +5,7 @@ import BoardOfLeaders from '../../components/company-board-of-leaders'
 import CompanyMission from '../../components/company-mission'
 import CompanyProcess from '../../components/company-process'
 import CompanyWorks from '../../components/company-works'
+import CompanyFAQ from '../../components/company-faqs'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <CompanyMission />
       <CompanyProcess />
       <CompanyWorks />
+      <CompanyFAQ />
     </div>
   )
 }
