@@ -38,3 +38,15 @@ body {
 .mission-card:hover .mission-icon-div img {
     filter: invert(26%) sepia(8%) saturate(3566%) hue-rotate(337deg) brightness(99%) contrast(91%);
 }
+
+.company-work-icon-div {
+    background-color: #F6F2DF;
+}
+
+.company-work:hover .company-work-icon-div {
+    background-color: white;
+}
+
+.company-work:hover .company-work-donate-now-button {
+    background-color: white;
+}
