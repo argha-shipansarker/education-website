@@ -50,3 +50,16 @@ body {
 .company-work:hover .company-work-donate-now-button {
     background-color: white;
 }
+
+.accordion__button {
+    background-color: white !important;
+}
+
+.accordion__panel {
+    background-color: #F6F2DF !important;
+}
+
+.accordion__button[aria-expanded='true'],
+.accordion__button[aria-selected='true'] {
+    background-color: #F6F2DF !important;
+}
