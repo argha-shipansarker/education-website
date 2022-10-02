@@ -38,7 +38,7 @@ const CompanyFAQ = () => {
     return (
         <div className='h-183 bg-lightBlueSectionBackground px-26 py-20'>
             <p className='text-5xl font-bold leading-16'>Frequently Asked Questions</p>
-            <div className='grid grid-cols-5 mt-12'>
+            <div className='grid grid-cols-5 mt-12 gap-4'>
                 <div className='col-span-2'>
                     <img src={FAQLogo} className="w-full" />
                 </div>
