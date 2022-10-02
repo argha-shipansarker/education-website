@@ -63,3 +63,19 @@ body {
 .accordion__button[aria-selected='true'] {
     background-color: #F6F2DF !important;
 }
+
+.contact-us {
+    background-color: white;
+}
+
+.contact-us-icon {
+    background-color: #F4F9F8;
+}
+
+.contact-us:hover {
+    background-color: #D6BB4E;
+}
+
+.contact-us:hover .contact-us-icon {
+    background-color: white;
+}

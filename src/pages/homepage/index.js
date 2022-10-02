@@ -7,6 +7,7 @@ import CompanyProcess from '../../components/company-process'
 import CompanyWorks from '../../components/company-works'
 import CompanyFAQ from '../../components/company-faqs'
 import StudentsRequirements from '../../components/students-reqirements'
+import ContactUs from '../../components/contact-us'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <CompanyWorks />
       <CompanyFAQ />
       <StudentsRequirements />
+      <ContactUs />
     </div>
   )
 }
