@@ -8,6 +8,7 @@ import CompanyWorks from '../../components/company-works'
 import CompanyFAQ from '../../components/company-faqs'
 import StudentsRequirements from '../../components/students-reqirements'
 import ContactUs from '../../components/contact-us'
+import Footer from '../../components/footer'
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
       <CompanyFAQ />
       <StudentsRequirements />
       <ContactUs />
+      <Footer />
     </div>
   )
 }
