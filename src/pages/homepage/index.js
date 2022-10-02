@@ -6,6 +6,7 @@ import CompanyMission from '../../components/company-mission'
 import CompanyProcess from '../../components/company-process'
 import CompanyWorks from '../../components/company-works'
 import CompanyFAQ from '../../components/company-faqs'
+import StudentsRequirements from '../../components/students-reqirements'
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <CompanyProcess />
       <CompanyWorks />
       <CompanyFAQ />
+      <StudentsRequirements />
     </div>
   )
 }
