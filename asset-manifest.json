@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/education-website/static/css/main.9e4f5220.css",
-    "main.js": "/education-website/static/js/main.25981025.js",
+    "main.js": "/education-website/static/js/main.41985b8a.js",
     "static/js/787.feed191a.chunk.js": "/education-website/static/js/787.feed191a.chunk.js",
     "static/media/food-relief.png": "/education-website/static/media/food-relief.480c3757fda5f5eec695.png",
     "static/media/mental-health-relief.png": "/education-website/static/media/mental-health-relief.47fd6cb0ab04b891b11d.png",
@@ -14,11 +14,11 @@
     "static/media/slick.woff": "/education-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/education-website/index.html",
     "main.9e4f5220.css.map": "/education-website/static/css/main.9e4f5220.css.map",
-    "main.25981025.js.map": "/education-website/static/js/main.25981025.js.map",
+    "main.41985b8a.js.map": "/education-website/static/js/main.41985b8a.js.map",
     "787.feed191a.chunk.js.map": "/education-website/static/js/787.feed191a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e4f5220.css",
-    "static/js/main.25981025.js"
+    "static/js/main.41985b8a.js"
   ]
 }
