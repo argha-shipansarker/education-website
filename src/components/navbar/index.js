@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const navbarMenus = [
@@ -62,9 +63,9 @@ const Navbar = () => {
                 }
             </div>
 
-            <button className='w-35 h-12 bg-primaryColor flex items-center justify-center rounded-lg font-semibold text-sm'>
+            <Link to='/donation' className='w-35 h-12 bg-primaryColor flex items-center justify-center rounded-lg font-semibold text-sm'>
                 DONATE NOW
-            </button>
+            </Link>
         </div>
     )
 }

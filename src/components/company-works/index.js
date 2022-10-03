@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CompanyWorks = () => {
     const works = [
@@ -64,9 +65,9 @@ const CompanyWorks = () => {
                                 {work.icon}
                             </div>
                             <p className='text-2xl font-bold leading-8 mt-6'>{work.heading}</p>
-                            <button className='w-full h-12 flex justify-center items-center mt-6 border-2 border-primaryColor rounded-lg company-work-donate-now-button'>
+                            <Link to='/donation' className='w-full h-12 flex justify-center items-center mt-6 border-2 border-primaryColor rounded-lg company-work-donate-now-button'>
                                 <p className='text-xm font-semibold leading-6'>Donate Now</p>
-                            </button>
+                            </Link>
                         </div>
                     ))
                 }
