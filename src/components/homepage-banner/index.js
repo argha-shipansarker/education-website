@@ -4,6 +4,7 @@ import SafetyReliefLogo from "./safety-relief.png"
 import FoodReliefLogo from "./food-relief.png"
 import MentalHealthReliefLogo from "./mental-health-relief.png"
 import Overlay from "./Overlay.png"
+import { Link } from 'react-router-dom'
 
 const HomePageBanner = () => {
 
@@ -108,9 +109,9 @@ const HomePageBanner = () => {
           <p className='text-6.5xl font-bold text-white'>{selectedBanner.bannerHeading}</p>
           <p className='mt-6 text-white'>{selectedBanner.bannerDescription}</p>
           <div className='flex mt-10 items-center'>
-            <button className='w-40 h-12 flex justify-center items-center bg-primaryColor rounded-lg text-sm font-semibold mr-7'>
+            <Link to='/donation' className='w-40 h-12 flex justify-center items-center bg-primaryColor rounded-lg text-sm font-semibold mr-7'>
               DONATE NOW
-            </button>
+            </Link>
             {
               selectedBanner.name === "Food Relief" && (
                 <div className='flex'>

@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import AboutCompanyDonationPage from '../../components/donation-Page/about-company'
 import _ from "lodash"
 import { BsGoogle } from "react-icons/bs"
 
 const DonationPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const [donationType, setDonationType] = useState([
         {
             name: "National Fund",
