@@ -9,10 +9,12 @@ import CompanyFAQ from '../../components/company-faqs'
 import StudentsRequirements from '../../components/students-reqirements'
 import ContactUs from '../../components/contact-us'
 import Footer from '../../components/footer'
+import Navbar from '../../components/navbar'
 
 const HomePage = () => {
   return (
     <div>
+      <Navbar />
       <HomePageBanner />
       <CompanyAbout />
       <BoardOfLeaders />
