@@ -54,7 +54,7 @@ const ContactUs = () => {
     ]
     return (
         <div className='px-4 py-4 lg:px-26 lg:py-20 bg-lightBlueSectionBackground'>
-            <p className='text-5xl font-bold leading-16 text-center'>Contact Us</p>
+            <p className='text-3.5xl lg:text-5xl font-bold leading-16 text-center'>Contact Us</p>
             <div className='mt-12 grid grid-cols-1 gap-4 justify-items-center md:grid-cols-2 lg:flex lg:justify-between'>
                 {
                     contactUsOptions.map((option, index) => (
