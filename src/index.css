@@ -98,29 +98,43 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media screen and (min-width: 1280px) {
-    .one-to-two{
+    .one-to-two {
         left: 200px
     }
 
-    .two-to-three{
+    .two-to-three {
         left: 515px
     }
 
-    .three-to-four{
+    .three-to-four {
         left: 840px
     }
 }
 
+@media screen and (min-width: 1360px) and (max-width: 1370px) {
+    .one-to-two {
+        left: 180px
+    }
+
+    .two-to-three {
+        left: 480px
+    }
+
+    .three-to-four {
+        left: 780px
+    }
+}
+
 @media screen and (min-width: 1800px) {
-    .one-to-two{
+    .one-to-two {
         left: 300px
     }
 
-    .two-to-three{
+    .two-to-three {
         left: 750px
     }
 
-    .three-to-four{
+    .three-to-four {
         left: 1210px
     }
 }
