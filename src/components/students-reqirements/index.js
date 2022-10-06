@@ -211,13 +211,13 @@ const StudentsRequirements = () => {
         }
     ]
     return (
-        <div className='px-26 py-20'>
+        <div className='px-4 lg:px-26 py-20'>
             <p className='text-5xl font-bold leading-16'>Get your students what they need</p>
             <p className='text-mutedTextColor mt-4 leading-8'>How your donations are processed</p>
-            <div className='grid grid-cols-1 sm:flex sm:justify-between mt-12'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8 lg:flex lg:justify-between mt-12'>
                 {
                     studentWorks.map((work, index) => (
-                        <div key={index} className="w-100 ">
+                        <div key={index} className="w-80 lg:w-100 ">
                             <div className='flex justify-center'>
                                 {work.icon}
                             </div>

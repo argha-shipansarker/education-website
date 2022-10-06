@@ -67,19 +67,39 @@ const BoardOfLeaders = () => {
         arrows: true,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    arrows: false,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                },
+            },
+            {
+                breakpoint: 340,
+                settings: {
+                    arrows: false,
+                },
+            },
+        ]
     };
     return (
-        <div className='w-full h-174 px-26 py-20'>
+        <div className='w-full min-h-174 px-4 py-4 lg:px-26 lg:py-20'>
             <p className='text-5xl font-bold leading-16'>Board of leaders</p>
             <p className='text-mutedTextColor mt-4 leading-8'>Our leaders speaking up about the issues that matter. </p>
 
             <Slider {...settings} className="mt-12">
                 <div>
-                    <div className='h-94.5 w-full flex items-center'>
+                    <div className='min-h-94.5 w-full grid grid-cols-1 md:grid-cols-2 lg:flex lg:items-center'>
                         <div className='h-full w-74.5 shrink-0'>
                             <img src={LeaderImage} alt="leader" className='object-contain w-full h-full' />
                         </div>
-                        <div className='ml-18 w-164'>
+                        <div className='ml-0 lg:ml-18 w-80 lg:w-164'>
                             <p className='text-3.5xl font-bold'>Betsy DeVos</p>
                             <p className='font-semibold text-mutedTextColor mt-3'>American politician & Philanthropist</p>
                             <p className='mt-6'>Elisabeth Dee DeVos is an American politician, philanthropist, and former government official who served as the 11th United States secretary of education from 2017 to 2021. DeVos is known for her support for school choice, school voucher programs, and charter schools.</p>
@@ -87,11 +107,11 @@ const BoardOfLeaders = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='h-94.5 w-full flex items-center'>
+                    <div className='min-h-94.5 w-full grid grid-cols-1 md:grid-cols-2 lg:flex lg:items-center'>
                         <div className='h-full w-74.5 shrink-0'>
                             <img src={LeaderImage} alt="leader" className='object-contain w-full h-full' />
                         </div>
-                        <div className='ml-18 w-164'>
+                        <div className='ml-0 lg:ml-18 w-80 lg:w-164'>
                             <p className='text-3.5xl font-bold'>Argha</p>
                             <p className='font-semibold text-mutedTextColor mt-3'>American politician & Philanthropist</p>
                             <p className='mt-6'>Elisabeth Dee DeVos is an American politician, philanthropist, and former government official who served as the 11th United States secretary of education from 2017 to 2021. DeVos is known for her support for school choice, school voucher programs, and charter schools.</p>

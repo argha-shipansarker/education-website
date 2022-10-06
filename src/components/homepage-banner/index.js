@@ -93,7 +93,7 @@ const HomePageBanner = () => {
 
 
   return (
-    <div className='h-220'>
+    <div className='min-h-220'>
 
       <div className='banner-image w-full h-174 relative'>
         {
@@ -105,8 +105,8 @@ const HomePageBanner = () => {
         {
           selectedBanner.name === "Mental Health Relief" && <img src={MentalHealthReliefLogo} className="h-full w-full object-cover" alt='banner-logo' />
         }
-        <div className='w-152 absolute top-49 left-26 z-10'>
-          <p className='text-6.5xl font-bold text-white'>{selectedBanner.bannerHeading}</p>
+        <div className='w-64 lg:w-152 absolute top-0 lg:top-49 left-26 z-10'>
+          <p className='text-4xl lg:text-6.5xl lg:leading-[5.5rem] font-bold text-white'>{selectedBanner.bannerHeading}</p>
           <p className='mt-6 text-white'>{selectedBanner.bannerDescription}</p>
           <div className='flex mt-10 items-center'>
             <Link to='/donation' className='w-40 h-12 flex justify-center items-center bg-primaryColor rounded-lg text-sm font-semibold mr-7'>
@@ -131,13 +131,15 @@ const HomePageBanner = () => {
       <div className='flex'>
         {
           bannerTypes.map((banner, index) => (
-            <div className={`w-1/3 h-46 p-10 cursor-pointer ${banner.selected ? "bg-primaryColor" : "bg-secondaryColor"} border-r-1`} key={index} onClick={() => handleBannerSelection(banner)}>
+            <div className={`w-1/3 h-46 p-4 lg:p-10 cursor-pointer ${banner.selected ? "bg-primaryColor" : "bg-secondaryColor"} border-r-1`} key={index} onClick={() => handleBannerSelection(banner)}>
               <p className='font-bold text-2xl'>{banner.name}</p>
               <div className='mt-2 flex justify-between items-center'>
-                <p>{banner.description}</p>
-                {
-                  banner.icon
-                }
+                <p className='hidden lg:block'>{banner.description}</p>
+                <div className='hidden lg:block'>
+                  {
+                    banner.icon
+                  }
+                </div>
               </div>
             </div>
           ))
