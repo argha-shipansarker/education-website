@@ -25,12 +25,12 @@ const CompanyProcess = () => {
     ]
     return (
         <div className='min-h-141 px-4 py-4 lg:px-26 lg:py-20'>
-            <p className='text-5xl font-bold leading-16'>Our Process</p>
+            <p className='text-3.5xl lg:text-5xl font-bold leading-16'>Our Process</p>
             <p className='text-mutedTextColor mt-4 leading-8'>How your donations are processed</p>
             <div className='mt-12 grid grid-cols-1 justify-items-center md:grid-cols-2 gap-12 lg:flex lg:justify-between relative'>
                 {
                     processes.map((process, index) => (
-                        <div key={index} className={`h-61 w-74 ${index}`}>
+                        <div key={index} className={`h-61 w-full lg:w-74 ${index}`}>
                             <div className='h-20 w-20 bg-secondaryColor flex justify-center items-center mb-6 rounded-2xl mx-auto'>
                                 {process.number}
                             </div>

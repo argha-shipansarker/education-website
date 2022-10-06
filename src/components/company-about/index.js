@@ -26,9 +26,9 @@ const CompanyAbout = () => {
                 </svg>
 
             </div>
-            <div className='w-3/4'>
+            <div className='w-full lg:w-3/4'>
                 <p className='text-3.5xl font-bold'>About Grads Give</p>
-                <p className='text-mutedTextColor'>Our Mission is to change the trajectory of a student's future by ensuring their school has the funds needed to grads give them and prepare them for success upon graduation. Grads Give was created to provide K-12 public schools with the funds needed to address the most urgent and basic needs.
+                <p className='mt-3 lg:mt-0 text-mutedTextColor'>Our Mission is to change the trajectory of a student's future by ensuring their school has the funds needed to grads give them and prepare them for success upon graduation. Grads Give was created to provide K-12 public schools with the funds needed to address the most urgent and basic needs.
                 </p>
             </div>
         </div>

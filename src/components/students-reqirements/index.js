@@ -217,7 +217,7 @@ const StudentsRequirements = () => {
             <div className='grid grid-cols-1 justify-items-center md:grid-cols-2 gap-8 lg:flex lg:justify-between mt-12'>
                 {
                     studentWorks.map((work, index) => (
-                        <div key={index} className="w-80 lg:w-100 ">
+                        <div key={index} className="w-full lg:w-100 ">
                             <div className='flex justify-center'>
                                 {work.icon}
                             </div>

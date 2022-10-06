@@ -55,12 +55,12 @@ const CompanyWorks = () => {
     return (
         <div className='min-h-152 px-4 py-4 lg:px-26 lg:py-20 bg-lightBlueSectionBackground'>
             <div className='flex justify-center'>
-                <p className='text-5xl font-bold leading-16 text-center w-181.75'>What we are doing to make the changes</p>
+                <p className='text-3.5xl lg:text-5xl font-bold lg:leading-16 text-center w-181.75'>What we are doing to make the changes</p>
             </div>
             <div className='grid grid-cols-1 justify-items-center md:grid-cols-2 gap-8 lg:flex lg:justify-between mt-12'>
                 {
                     works.map((work, index) => (
-                        <div className='w-80 lg:w-100 h-68 bg-white hover:bg-primaryColor rounded-2xl p-8 flex flex-col items-center company-work' key={index}>
+                        <div className='w-80 lg:w-100 h-68 bg-white hover:bg-primaryColor rounded-2xl py-8 lg:p-8 flex flex-col items-center company-work' key={index}>
                             <div className='w-20 h-20 rounded-2xl flex justify-center items-center company-work-icon-div'>
                                 {work.icon}
                             </div>
