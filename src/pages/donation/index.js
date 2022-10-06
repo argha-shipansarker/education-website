@@ -197,7 +197,7 @@ const DonationPage = () => {
         <div>
             <AboutCompanyDonationPage />
 
-            <div className='sm:px-78 py-20'>
+            <div className='px-4 md:px-16 lg:px-78 py-20'>
 
                 <p className='text-2xl font-bold leading-8'>I want to donate</p>
                 <p className='leading-6 mt-8'>Donate to</p>
@@ -255,7 +255,7 @@ const DonationPage = () => {
                 <div className='flex flex-wrap mt-4'>
                     {
                         donationAmount.map((amount, index) => (
-                            <div className={`px-6 py-3 mr-3 rounded-large cursor-pointer ${amount.selected ? "bg-primaryColor" : "bg-secondaryColor"}`} key={index} onClick={() => handleDonationAmount(amount)}>
+                            <div className={`px-6 py-3 mr-3 mb-2 rounded-large cursor-pointer ${amount.selected ? "bg-primaryColor" : "bg-secondaryColor"}`} key={index} onClick={() => handleDonationAmount(amount)}>
                                 <span className='leading-6 font-semibold'>{amount.name}</span>
                             </div>
                         ))
@@ -265,7 +265,7 @@ const DonationPage = () => {
                 {
                     selectedAmount === "Other" && (
                         <div className='relative mt-8'>
-                            <input type="text" className='w-full h-14 border-1 mt-2 focus:outline-none pl-10 rounded-lg' placeholder='Donation Amount' />
+                            <input type="text" className='w-full h-14 border-1 focus:outline-none pl-10 rounded-lg' placeholder='Donation Amount' />
                             <div className='absolute left-3' style={{ top: 25 }}>
                                 <p className='font-semibold leading-6'>$</p>
                             </div>
@@ -273,7 +273,7 @@ const DonationPage = () => {
                     )
                 }
 
-                <p className='text-2xl leading-8 font-semibold mt-12 mb-8'>I want to support</p>
+                <p className='text-2xl leading-8 font-semibold mt-10 mb-8'>I want to support</p>
 
                 {
                     supportTypes.map((support, index) => (
