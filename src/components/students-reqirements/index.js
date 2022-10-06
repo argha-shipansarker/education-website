@@ -214,7 +214,7 @@ const StudentsRequirements = () => {
         <div className='px-26 py-20'>
             <p className='text-5xl font-bold leading-16'>Get your students what they need</p>
             <p className='text-mutedTextColor mt-4 leading-8'>How your donations are processed</p>
-            <div className='flex justify-between mt-12'>
+            <div className='grid grid-cols-1 sm:flex sm:justify-between mt-12'>
                 {
                     studentWorks.map((work, index) => (
                         <div key={index} className="w-100 ">

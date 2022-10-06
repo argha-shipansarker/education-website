@@ -4,7 +4,7 @@ import RecentPost2 from "./post2.png"
 
 const Footer = () => {
     return (
-        <div className='px-26 py-20 grid grid-cols-4 gap-7'>
+        <div className='px-26 py-20 grid grid-cols-1 sm:grid-cols-4 gap-7'>
 
             <div>
                 <div>
