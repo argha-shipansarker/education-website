@@ -90,7 +90,7 @@ const BoardOfLeaders = () => {
     };
     return (
         <div className='w-full min-h-174 px-4 py-4 lg:px-26 lg:py-20'>
-            <p className='text-5xl font-bold leading-16'>Board of leaders</p>
+            <p className='text-3.5xl lg:text-5xl font-bold leading-16'>Board of leaders</p>
             <p className='text-mutedTextColor mt-4 leading-8'>Our leaders speaking up about the issues that matter. </p>
 
             <Slider {...settings} className="mt-12">
