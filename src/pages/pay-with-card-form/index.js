@@ -35,7 +35,7 @@ const DonationRecievingForm = ({ onOpenModal }) => {
         <div>
             <AboutCompanyDonationPage />
 
-            <div className='sm:px-78 py-20'>
+            <div className='px-4 md:px-16 lg:px-78 py-20'>
                 <p className='text-3.5xl leading-12 font-semibold'>Pay with Your Card</p>
                 <p className='leading-6 mt-3 text-mutedTextColor'>Enter the credit card details for payment</p>
 

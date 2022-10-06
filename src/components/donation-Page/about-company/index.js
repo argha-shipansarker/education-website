@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutCompanyDonationPage = () => {
     return (
-        <div className='h-62 px-26 py-12 bg-lightBlueSectionBackground flex items-center'>
+        <div className='min-h-62 px-8 sm:px-26 py-12 bg-lightBlueSectionBackground flex items-center'>
             <div className='mr-20'>
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1377_2141)">
