@@ -197,7 +197,7 @@ const DonationPage = () => {
         <div>
             <AboutCompanyDonationPage />
 
-            <div className='px-78 py-20'>
+            <div className='sm:px-78 py-20'>
 
                 <p className='text-2xl font-bold leading-8'>I want to donate</p>
                 <p className='leading-6 mt-8'>Donate to</p>
@@ -252,7 +252,7 @@ const DonationPage = () => {
                 </div>
 
                 <p className='leading-6 mt-8'>Donation Amount</p>
-                <div className='flex mt-4'>
+                <div className='flex flex-wrap mt-4'>
                     {
                         donationAmount.map((amount, index) => (
                             <div className={`px-6 py-3 mr-3 rounded-large cursor-pointer ${amount.selected ? "bg-primaryColor" : "bg-secondaryColor"}`} key={index} onClick={() => handleDonationAmount(amount)}>
