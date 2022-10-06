@@ -35,7 +35,7 @@ const DonationRecievingForm = ({ onOpenModal }) => {
         <div>
             <AboutCompanyDonationPage />
 
-            <div className='px-78 py-20'>
+            <div className='sm:px-78 py-20'>
                 <p className='text-3.5xl leading-12 font-semibold'>Pay with Your Card</p>
                 <p className='leading-6 mt-3 text-mutedTextColor'>Enter the credit card details for payment</p>
 
@@ -52,7 +52,7 @@ const DonationRecievingForm = ({ onOpenModal }) => {
                 <div className='mt-12'>
                     <p className='text-2xl leading-8 font-semibold'>Personal Details</p>
                     <hr className='mt-3' />
-                    <div className='grid grid-cols-2 gap-4 mt-6'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6'>
                         <div>
                             <label className='text-base'>First Name</label>
                             <input type="text" className='w-full h-14 border-1 mt-2 focus:outline-none pl-4 rounded-lg' placeholder='Enter First Name' />
@@ -79,7 +79,7 @@ const DonationRecievingForm = ({ onOpenModal }) => {
                         <label className='text-base'>Address Line 2</label>
                         <input type="text" className='w-full h-14 border-1 mt-2 focus:outline-none pl-4 rounded-lg' placeholder='Enter Address Line 2' />
                     </div>
-                    <div className='mt-6 grid grid-cols-3 gap-4'>
+                    <div className='mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4'>
                         <div className=''>
                             <label className='text-base'>City</label>
                             <input type="text" className='w-full h-14 border-1 mt-2 focus:outline-none pl-4 rounded-lg' placeholder='Enter City' />
@@ -117,7 +117,7 @@ const DonationRecievingForm = ({ onOpenModal }) => {
                             </svg>
                         </div>
                     </div>
-                    <div className='mt-6 grid grid-cols-2 gap-4'>
+                    <div className='mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4'>
                         <div className='relative'>
                             <label className='text-base'>CVV Number</label>
                             <input type={showNumber ? "text" : "password"} className='w-full h-14 border-1 mt-2 focus:outline-none pl-4 pr-11 rounded-lg' placeholder='Enter CVV Number' />
