@@ -11,7 +11,8 @@ module.exports = {
         "secondaryColor": "#F6F2DF",
         "navbarBackground": "rgba(0, 0, 0, 0.2)",
         "lightBlueSectionBackground": "#F4F9F8",
-        "mutedTextColor": "#707070"
+        "mutedTextColor": "#707070",
+        "invoiceMoney": "#6F4025"
       },
 
       spacing: {
