@@ -24,7 +24,7 @@ const CompanyMission = () => {
     return (
         <div className='h-158.25 bg-lightBlueSectionBackground px-26 py-20'>
             <p className='text-5xl font-bold leading-16 text-center mb-27'>Our Mission</p>
-            <div className='flex justify-between'>
+            <div className='grid grid-cols-1 sm:flex sm:justify-between'>
                 {
                     missionData.map((mission, index) => (
                         <div className='w-100 h-75.25 px-8 py-14 flex flex-col justify-end relative rounded-2xl bg-white mission-card'>

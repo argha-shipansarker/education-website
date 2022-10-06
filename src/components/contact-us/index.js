@@ -55,7 +55,7 @@ const ContactUs = () => {
     return (
         <div className='px-26 py-20 bg-lightBlueSectionBackground'>
             <p className='text-5xl font-bold leading-16 text-center'>Contact Us</p>
-            <div className='mt-12 flex justify-between'>
+            <div className='mt-12 grid grid-cols-1 sm:flex sm:justify-between'>
                 {
                     contactUsOptions.map((option, index) => (
                         <div key={index} className="w-100 h-76 px-12 py-10 flex flex-col items-center contact-us rounded-2xl">

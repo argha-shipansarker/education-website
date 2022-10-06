@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AboutCompanyDonationPage from '../../components/donation-Page/about-company'
 import _ from "lodash"
 import { BsGoogle } from "react-icons/bs"
+import { Link } from 'react-router-dom'
 
 const DonationPage = () => {
 
@@ -196,7 +197,7 @@ const DonationPage = () => {
         <div>
             <AboutCompanyDonationPage />
 
-            <div className='px-78 py-20'>
+            <div className='sm:px-78 py-20'>
 
                 <p className='text-2xl font-bold leading-8'>I want to donate</p>
                 <p className='leading-6 mt-8'>Donate to</p>
@@ -251,7 +252,7 @@ const DonationPage = () => {
                 </div>
 
                 <p className='leading-6 mt-8'>Donation Amount</p>
-                <div className='flex mt-4'>
+                <div className='flex flex-wrap mt-4'>
                     {
                         donationAmount.map((amount, index) => (
                             <div className={`px-6 py-3 mr-3 rounded-large cursor-pointer ${amount.selected ? "bg-primaryColor" : "bg-secondaryColor"}`} key={index} onClick={() => handleDonationAmount(amount)}>
@@ -265,7 +266,7 @@ const DonationPage = () => {
                     selectedAmount === "Other" && (
                         <div className='relative mt-8'>
                             <input type="text" className='w-full h-14 border-1 mt-2 focus:outline-none pl-10 rounded-lg' placeholder='Donation Amount' />
-                            <div className='absolute top-6 left-3'>
+                            <div className='absolute left-3' style={{ top: 25 }}>
                                 <p className='font-semibold leading-6'>$</p>
                             </div>
                         </div>
@@ -311,7 +312,7 @@ const DonationPage = () => {
                     <p className='text-lg font-semibold leading-6 ml-3'>Google Pay</p>
                 </button>
 
-                <button className='w-full h-14 bg-primaryColor flex justify-center items-center rounded-lg mt-4'>
+                <Link to='/donor-details' className='w-full h-14 bg-primaryColor flex justify-center items-center rounded-lg mt-4'>
                     <div>
                         <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.0373 17.2184H2.65178C2.39123 17.2184 2.17984 17.007 2.17984 16.7464V7.76981H22.2617V8.94966C22.2617 9.27411 22.5272 9.53958 22.8517 9.53958C23.1761 9.53958 23.4416 9.27411 23.4416 8.94966V4.69731C23.4416 3.78785 22.6993 3.04553 21.7898 3.04553H2.65178C1.7374 3.04553 1 3.78785 1 4.69731V16.7464C1 17.6559 1.74232 18.3982 2.65178 18.3982H14.0422C14.3666 18.3982 14.6321 18.1328 14.6321 17.8083C14.6321 17.4838 14.3666 17.2184 14.0373 17.2184ZM2.65178 4.22537H21.7898C22.0503 4.22537 22.2617 4.43676 22.2617 4.69731V6.58997H2.17493V4.69731C2.17493 4.43676 2.39123 4.22537 2.65178 4.22537Z" fill="#2E1708" />
@@ -323,7 +324,7 @@ const DonationPage = () => {
                         </svg>
                     </div>
                     <p className='text-sm font-semibold leading-6 ml-3'>PAY WITH CARD</p>
-                </button>
+                </Link>
 
                 <p className='text-xs leading-6 text-mutedTextColor mt-8 text-center'>By paying, you allow Grads Give to use personal information to provide you the content you requested and allow us to assist.</p>
             </div>

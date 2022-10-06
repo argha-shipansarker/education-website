@@ -57,7 +57,7 @@ const CompanyWorks = () => {
             <div className='flex justify-center'>
                 <p className='text-5xl font-bold leading-16 text-center w-181.75'>What we are doing to make the changes</p>
             </div>
-            <div className='flex justify-between mt-12'>
+            <div className='grid grid-cols-1 sm:flex sm:justify-between mt-12'>
                 {
                     works.map((work, index) => (
                         <div className='w-100 h-68 bg-white hover:bg-primaryColor rounded-2xl p-8 flex flex-col items-center company-work' key={index}>
