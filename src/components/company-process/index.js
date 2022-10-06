@@ -27,7 +27,7 @@ const CompanyProcess = () => {
         <div className='min-h-141 px-4 py-4 lg:px-26 lg:py-20'>
             <p className='text-5xl font-bold leading-16'>Our Process</p>
             <p className='text-mutedTextColor mt-4 leading-8'>How your donations are processed</p>
-            <div className='mt-12 grid grid-cols-1 md:grid-cols-2 gap-12 lg:flex lg:justify-between relative'>
+            <div className='mt-12 grid grid-cols-1 justify-items-center md:grid-cols-2 gap-12 lg:flex lg:justify-between relative'>
                 {
                     processes.map((process, index) => (
                         <div key={index} className={`h-61 w-74 ${index}`}>

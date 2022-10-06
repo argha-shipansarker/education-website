@@ -2,6 +2,7 @@ import React from 'react'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import ModalPhoto from "./Photo.png"
+import { Link } from 'react-router-dom';
 
 const ThankYouModal = ({ open, onCloseModal }) => {
     return (
@@ -37,9 +38,9 @@ const ThankYouModal = ({ open, onCloseModal }) => {
                         <p className='leading-6 text-center mt-3'>Will you consider making an additional gift of $10 per month to help people affected by disasters big and small?</p>
                     </div>
 
-                    <button className='w-full h-14 bg-primaryColor flex justify-center items-center mt-8 rounded-lg'>
+                    <Link to='/invoice' className='w-full h-14 bg-primaryColor flex justify-center items-center mt-8 rounded-lg' onClick={onCloseModal}>
                         <p className='text-sm font-semibold leading-6'>DONATE $10 MONTHLY</p>
-                    </button>
+                    </Link>
 
                     <button className='w-full h-14 border-1 flex justify-center items-center mt-4 rounded-lg' onClick={onCloseModal}>
                         <p className='text-sm font-semibold leading-6'>NO, THANKS</p>
