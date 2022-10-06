@@ -91,3 +91,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     right: 12px;
 }
+
+.react-responsive-modal-modal {
+    padding: 0 !important;
+    max-width: 1024px !important;
+}

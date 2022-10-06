@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import AboutCompanyDonationPage from '../../components/donation-Page/about-company'
 import Select from 'react-select'
 import { IoIosEye, IoIosEyeOff } from "react-icons/io"
+import ThankYouModal from '../thank-you-modal'
 
 const options = [
     { value: 'chocolate', label: 'Chocolate' },
@@ -24,9 +25,12 @@ const customStyles = {
     })
 }
 
-const DonationRecievingForm = () => {
+const DonationRecievingForm = ({ onOpenModal }) => {
     const [showNumber, setShowNumber] = useState(false)
     const [donationAmount, setDonationAmount] = useState(40.00)
+    // const [isModalOpen, setIsModalOpen] = useState(false)
+    // const onOpenModal = () => setIsModalOpen(true);
+    // const onCloseModal = () => setIsModalOpen(false);
     return (
         <div>
             <AboutCompanyDonationPage />
@@ -131,14 +135,14 @@ const DonationRecievingForm = () => {
                     </div>
                 </div>
 
-                <button className='h-14 w-full flex justify-center items-center bg-primaryColor rounded-lg mt-12'>
+                <button className='h-14 w-full flex justify-center items-center bg-primaryColor rounded-lg mt-12' onClick={onOpenModal}>
                     <p className='text-sm leading-6 font-semibold'>PAY ${parseFloat(donationAmount)}</p>
                 </button>
 
                 <p className='text-xs leading-6 text-mutedTextColor text-center mt-10'>By paying, you allow Grads Give to use personal information to provide you the content you requested and allow us to assist.</p>
             </div>
 
-
+            {/* <ThankYouModal open={isModalOpen} onCloseModal={onCloseModal} /> */}
         </div>
     )
 }
