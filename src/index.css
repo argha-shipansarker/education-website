@@ -96,3 +96,31 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 0 !important;
     max-width: 1024px !important;
 }
+
+@media screen and (min-width: 1280px) {
+    .one-to-two{
+        left: 200px
+    }
+
+    .two-to-three{
+        left: 515px
+    }
+
+    .three-to-four{
+        left: 840px
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .one-to-two{
+        left: 300px
+    }
+
+    .two-to-three{
+        left: 750px
+    }
+
+    .three-to-four{
+        left: 1210px
+    }
+}

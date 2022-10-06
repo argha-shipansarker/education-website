@@ -23,7 +23,7 @@ const Navbar = () => {
         },
     ]
     return (
-        <div className='w-full h-24 px-26 py-4 bg-navbarBackground backdrop-blur-xs flex justify-between items-center fixed top-0 right-0 z-50'>
+        <div className='hidden lg:flex justify-between items-center w-full h-24 px-26 py-4 bg-navbarBackground backdrop-blur-xs fixed top-0 right-0 z-50'>
 
             <div className='company-logo'>
                 <svg width="156" height="32" viewBox="0 0 156 32" fill="none" xmlns="http://www.w3.org/2000/svg">
