@@ -228,7 +228,7 @@ const StudentsRequirements = () => {
                 }
             </div>
             <div className='flex justify-center mt-12'>
-                <button className='w-74 h-12 flex justify-center items-center bg-primaryColor rounded-lg'>
+                <button className='w-full lg:w-74 h-12 flex justify-center items-center bg-primaryColor rounded-lg'>
                     <p className='text-sm font-semibold leading-6'>LEARN MORE</p>
                 </button>
             </div>

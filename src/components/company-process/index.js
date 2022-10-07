@@ -31,7 +31,7 @@ const CompanyProcess = () => {
                 {
                     processes.map((process, index) => (
                         <div key={index} className={`h-61 w-full lg:w-74 ${index}`}>
-                            <div className='h-20 w-20 bg-secondaryColor flex justify-center items-center mb-6 rounded-2xl mx-auto'>
+                            <div className='h-20 w-20 bg-secondaryColor flex justify-center items-center mb-6 rounded-2xl mx-auto text-3xl font-bold text-invoiceMoney'>
                                 {process.number}
                             </div>
                             <p className='text-2xl font-bold leading-8 mb-3 text-center'>{process.heading}</p>

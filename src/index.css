@@ -35,7 +35,7 @@ body {
     background-color: white;
 }
 
-.mission-card:hover .mission-icon-div img {
+.mission-card:hover .mission-icon-div svg {
     filter: invert(26%) sepia(8%) saturate(3566%) hue-rotate(337deg) brightness(99%) contrast(91%);
 }
 

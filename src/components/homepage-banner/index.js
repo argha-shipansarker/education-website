@@ -105,7 +105,7 @@ const HomePageBanner = () => {
         {
           selectedBanner.name === "Mental Health Relief" && <img src={MentalHealthReliefLogo} className="h-full w-full object-cover" alt='banner-logo' />
         }
-        <div className='w-64 lg:w-152 absolute top-10 left-4 lg:top-49 lg:left-26 z-10'>
+        <div className='w-64 lg:w-152 absolute top-10 left-1/5 lg:top-49 lg:left-26 z-10'>
           <p className='text-4xl lg:text-6.5xl lg:leading-[5.5rem] font-bold text-white'>{selectedBanner.bannerHeading}</p>
           <p className='mt-6 text-white'>{selectedBanner.bannerDescription}</p>
           <div className='flex mt-10 items-center'>

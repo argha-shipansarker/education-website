@@ -60,7 +60,7 @@ const CompanyWorks = () => {
             <div className='grid grid-cols-1 justify-items-center md:grid-cols-2 gap-8 lg:flex lg:justify-between mt-12'>
                 {
                     works.map((work, index) => (
-                        <div className='w-80 lg:w-100 h-68 bg-white hover:bg-primaryColor rounded-2xl py-8 lg:p-8 flex flex-col items-center company-work' key={index}>
+                        <div className='w-full lg:w-100 h-68 bg-white hover:bg-primaryColor rounded-2xl p-8 flex flex-col items-center company-work' key={index}>
                             <div className='w-20 h-20 rounded-2xl flex justify-center items-center company-work-icon-div'>
                                 {work.icon}
                             </div>
