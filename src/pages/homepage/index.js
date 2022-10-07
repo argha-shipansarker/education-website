@@ -45,7 +45,7 @@ const HomePage = () => {
   return (
     <div className='relative'>
       <button
-        className="flex h-10 w-full justify-end items-center group lg:hidden"
+        className="flex h-10 w-full justify-end pr-6 items-center group lg:hidden"
         onClick={() => setIsOpen((prevState) => !prevState)}
         ref={hamburgerRef}
       >

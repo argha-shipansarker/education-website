@@ -99,7 +99,7 @@ const BoardOfLeaders = () => {
                         <div className='h-full w-74.5 shrink-0'>
                             <img src={LeaderImage} alt="leader" className='object-contain w-full h-full' />
                         </div>
-                        <div className='ml-0 lg:ml-18 w-80 lg:w-164'>
+                        <div className='ml-0 lg:ml-18 w-full lg:w-164'>
                             <p className='text-3.5xl font-bold'>Betsy DeVos</p>
                             <p className='font-semibold text-mutedTextColor mt-3'>American politician & Philanthropist</p>
                             <p className='mt-6'>Elisabeth Dee DeVos is an American politician, philanthropist, and former government official who served as the 11th United States secretary of education from 2017 to 2021. DeVos is known for her support for school choice, school voucher programs, and charter schools.</p>
@@ -111,7 +111,7 @@ const BoardOfLeaders = () => {
                         <div className='h-full w-74.5 shrink-0'>
                             <img src={LeaderImage} alt="leader" className='object-contain w-full h-full' />
                         </div>
-                        <div className='ml-0 lg:ml-18 w-80 lg:w-164'>
+                        <div className='ml-0 lg:ml-18 w-full lg:w-164'>
                             <p className='text-3.5xl font-bold'>Argha</p>
                             <p className='font-semibold text-mutedTextColor mt-3'>American politician & Philanthropist</p>
                             <p className='mt-6'>Elisabeth Dee DeVos is an American politician, philanthropist, and former government official who served as the 11th United States secretary of education from 2017 to 2021. DeVos is known for her support for school choice, school voucher programs, and charter schools.</p>

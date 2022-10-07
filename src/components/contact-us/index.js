@@ -58,7 +58,7 @@ const ContactUs = () => {
             <div className='mt-12 grid grid-cols-1 gap-4 justify-items-center md:grid-cols-2 lg:flex lg:justify-between'>
                 {
                     contactUsOptions.map((option, index) => (
-                        <div key={index} className="w-full lg:w-100 h-76 lg:px-12 py-10 flex flex-col items-center contact-us rounded-2xl">
+                        <div key={index} className="w-full lg:w-100 min-h-76 px-12 py-10 flex flex-col items-center contact-us rounded-2xl">
                             <div className='w-20 h-20 flex justify-center items-center rounded-2xl contact-us-icon'>
                                 {option.icon}
                             </div>
