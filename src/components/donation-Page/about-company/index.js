@@ -2,8 +2,8 @@ import React from 'react'
 
 const AboutCompanyDonationPage = () => {
     return (
-        <div className='min-h-62 px-8 sm:px-26 py-12 bg-lightBlueSectionBackground flex items-center'>
-            <div className='mr-20'>
+        <div className='min-h-62 px-4 sm:px-26 py-12 bg-lightBlueSectionBackground grid grid-cols-1 justify-items-center gap-4 lg:flex lg:items-center'>
+            <div className='lg:mr-20'>
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1377_2141)">
                         <path d="M75 150C116.421 150 150 116.421 150 75C150 33.5786 116.421 0 75 0C33.5786 0 0 33.5786 0 75C0 116.421 33.5786 150 75 150Z" fill="#3077B8" />
