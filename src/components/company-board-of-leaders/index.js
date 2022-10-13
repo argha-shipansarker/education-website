@@ -9,7 +9,6 @@ import LeaderImage from "./leader-image.png"
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
-    console.log("manto", onClick)
     return (
         <div
             className={className}
@@ -34,7 +33,6 @@ function SampleNextArrow(props) {
 
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
-    console.log("hello", onClick)
     return (
         <div
             className={className}
