@@ -97,6 +97,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     max-width: 1024px !important;
 }
 
+@media screen and (max-width: 425px) {
+    .slick-prev {
+        top: -25px !important;
+        left: 0px !important;
+        z-index: 10;
+    }
+
+    .slick-next {
+        top: -25px !important;
+        left: 50px !important;
+        z-index: 10;
+    }
+}
+
+
+
 @media screen and (min-width: 1280px) {
     .one-to-two {
         left: 200px

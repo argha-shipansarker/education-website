@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import _ from "lodash"
 import SafetyReliefLogo from "./safety-relief.png"
 import FoodReliefLogo from "./food-relief.png"
@@ -91,11 +91,17 @@ const HomePageBanner = () => {
     setBannerTypes(updatedTempBanner)
   }
 
+  const homePageBanner = useRef(null)
+
+  useEffect(() => {
+    console.log("argha", homePageBanner.current.clientWidth)
+  }, [homePageBanner])
+
 
   return (
     <div className='min-h-220'>
 
-      <div className='banner-image w-full h-174 relative'>
+      <div className='banner-image w-full h-174 relative' ref={homePageBanner}>
         {
           selectedBanner.name === "Food Relief" && <img src={FoodReliefLogo} className="h-full w-full object-cover" alt='banner-logo' />
         }

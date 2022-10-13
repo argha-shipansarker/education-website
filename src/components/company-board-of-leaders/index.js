@@ -75,13 +75,13 @@ const BoardOfLeaders = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                 },
             },
             {
                 breakpoint: 340,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                 },
             },
         ]
