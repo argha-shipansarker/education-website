@@ -26,7 +26,7 @@ const SidebarDynamic = props => {
         },
     ]
 
-    const { isOpen, sidebarRef, setIsOpen } = props
+    const { isOpen, sidebarRef, setIsOpen, homeSection, missionSection, goalsSection, faqSection, contactUsSection, scrollDown, selected } = props
 
     const testActive = "fixed top-0 left-0 h-screen w-3/4 bg-white transform transition-all duration-500 z-50 overflow-y-scroll pb-8 shadow-2xl lg:hidden"
     const testHidden = "fixed top-0 left-0 h-screen w-0 transform transition-all duration-500 opacity-0 overflow-hidden z-10"
@@ -60,7 +60,7 @@ const SidebarDynamic = props => {
 
                 <div className="flex mt-8 items-center justify-between">
                     <div className='navbar-menus'>
-                        {
+                        {/* {
                             navbarMenus.map((menu, index) => (
                                 <div className='my-8' key={index}>
                                     <p className='font-semibold text-black'>{menu.name}</p>
@@ -69,9 +69,33 @@ const SidebarDynamic = props => {
                                     }
                                 </div>
                             ))
-                        }
+                        } */}
 
-                        <Link to='/donation' className='w-35 h-12 bg-primaryColor flex items-center justify-center rounded-lg font-semibold text-sm'>
+                        <div className='cursor-pointer' onClick={() => scrollDown(homeSection, "Home")}>
+                            <p className='font-semibold'>Home</p>
+                            {selected === "Home" && <div className='h-1 bg-primaryColor mt-1'></div>}
+                        </div>
+                        <div className='mt-4 cursor-pointer' onClick={() => scrollDown(missionSection, "Mission")}>
+                            <p className='font-semibold'>Mission</p>
+                            {selected === "Mission" && <div className='h-1 bg-primaryColor mt-1'></div>}
+                        </div>
+                        <div className='mt-4 cursor-pointer' onClick={() => scrollDown(goalsSection, "Goals")}>
+                            <p className='font-semibold'>Goals</p>
+                            {selected === "Goals" && <div className='h-1 bg-primaryColor mt-1'></div>}
+                        </div>
+                        <div className='mt-4 cursor-pointer' onClick={() => scrollDown(faqSection, "FAQ")}>
+                            <p className='font-semibold'>FAQs</p>
+                            {selected === "FAQ" && <div className='h-1 bg-primaryColor mt-1'></div>}
+                        </div>
+                        <div className='mt-4 cursor-pointer' onClick={() => scrollDown(contactUsSection, "Contact")}>
+                            <p className='font-semibold'>Contact Us</p>
+                            {selected === "Contact" && <div className='h-1 bg-primaryColor mt-1'></div>}
+                        </div>
+                        <div className='mt-4 cursor-pointer'>
+                            <p className='font-semibold'>Login</p>
+                        </div>
+
+                        <Link to='/donation' className='w-35 h-12 bg-primaryColor flex items-center justify-center rounded-lg font-semibold text-sm mt-8'>
                             DONATE NOW
                         </Link>
                     </div>
