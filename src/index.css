@@ -141,7 +141,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 }
 
-@media screen and (min-width: 1800px) {
+/* @media screen and (min-width: 1800px) {
     .one-to-two {
         left: 300px
     }
@@ -153,4 +153,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .three-to-four {
         left: 1210px
     }
-}
+} */
